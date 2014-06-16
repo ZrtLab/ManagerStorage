@@ -1,0 +1,45 @@
+{
+	"name": "zrt-lab/managerstorage",
+	"description": "Zend Framework 2 Manager Storage Module",
+	"keywords": [
+        "framework",
+        "zf2",
+        "zend",
+        "zend framework 2",
+        "service",
+        "Sessiones",
+        "Cache"
+    ],
+    "config": {
+        "process-timeout": 5000
+    },
+    "authors": [
+        {
+            "name": "Luis Alberto Mayta",
+            "email": "slovacus@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/ZrtLab/ManagerStorage",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "zendframework/zendframework": "2.*"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "dev-master",
+        "phpunit/phpunit": "4.1.0",
+        "phpunit/dbunit": "*",
+        "mockery/mockery": "0.8.0",
+        "fabpot/php-cs-fixer": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "ManagerStorage": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "config": {
+        "bin-dir": "vendor/bin/"
+    }
+}
